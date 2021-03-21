@@ -1,0 +1,68 @@
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td:first-child {
+    background: #AFCDE7;
+    padding: 20px 40px;
+}
+
+.tel {
+    width: 120px;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+td {
+    background: #D8E6F3;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    color: blue
+}
+
+button:active, button:focus {
+    outline: none;
+    border: none;
+    color: aliceblue;
+}
+
+#form input {
+    width: 120px;
+    padding: 0 20px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 10px;
+}
+
+#form input[type="submit"] {
+    background: #AFCDE7;
+    color: white;
+}
+
+#form p {
+    color: red;
+    margin-top: 0;
+    margin-left: 20px;
+}

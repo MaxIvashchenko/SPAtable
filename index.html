@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="form">
+        <input id="inputName" type="text" placeholder="Имя">
+        <input id="inputTel" type="text" placeholder="Телефон">
+        <input id="inputSubmit" type="submit" value="Добавить">
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th class="tel">Телефон</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableBody">
+            <tr>
+                <td>Саша</td>
+                <td>+129084124</td>
+                <td>
+                    <button class="btn fa fa-edit"></button>
+                </td>
+                <td>
+                    <button class="btn fa fa-trash"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>Леша</td>
+                <td>+91627414928</td>
+                <td>
+                    <button class="btn fa fa-edit"></button>
+                </td>
+                <td>
+                    <button class="btn fa fa-trash"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>Катя</td>
+                <td>+741298214</td>
+                <td>
+                    <button class="btn fa fa-edit"></button>
+                </td>
+                <td>
+                    <button class="btn fa fa-trash"></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="./index.js"></script>
+
+</html>
